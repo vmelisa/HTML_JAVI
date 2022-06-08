@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TRABAJO DE FORMULARIOS</h1>
+    <Form  action="datos.html" method="get">
+         Diguite su formulario <input name=""nombre" type="text" maxlength="50">
+         <br>
+         Diguite su fecha de nacimiento <input name="fecnac" type="datetime">
+         <br>
+         Escoja su sexo <input name="sex" type="radio"> Masculino <input name="sex1" type="radio">Femenino
+         <br>
+         Diguite su contraseña<input type"password">
+         Diguite su telefono<input type"number" maxlength="10" minlength="7">
+         <br>
+
+         <input type="submit">ENVIAR
+         <input type="reset">CANCELAR
+
+        
+    </form>
+<br>
+<br>
+    <form>
+        <form action ="datos.html" method="get">
+        <input type="date" min="3" max="4">
+        <br>
+        <br>
+        Escoja su color de su sitio web <input type="color" name="colores" id="col">
+        <br>
+        <br>
+        Califque de un rango de 1 a 5 a sus profesores<input type="range" min="1" max="5">
+        <br>
+        <br>
+        Suba su foto de perfil<input type="file" max="2">
+        <br>
+        <br>
+
+        <form action="" method="get">
+            <h1>ESCOJA AL GENERO QUE PERTENECE</h1>
+            <input type="radio" name="genero" value="masculino">MASCULINO<BR>
+             <input type="radio" name="genero" value="femenino">FEMENINO<BR>
+             <input type="radio" name="genero" value="no se" checked>NO SE<BR>
+
+        </form>
+        
+        <form action="" method="get">
+            <h1>SELECCIONE SUSU HOBBIES LOS FINES DE SEMANA</h1>
+            <input type="checkbox" name="gustos" value="jugar" checked>JUGAR<BR>
+            <input type="checkbox" name="gustos" value="pasear" checked>PASEAR<BR>
+            <input type="checkbox" name="gustos" value="leer" checked>LEER<BR>
+            <input type="checkbox" name="gustos" value="estudiar" checked>ESTUDIAR<BR>
+            <input type="checkbox" name="gustos" value="bailar" checked>BAILAR<BR>
+            <input type="text" name="gustos" id="OTRO" value=""<BR>
+                <br>
+                <br>
+
+                <select multiple>
+                    <option value=""mascuino">maculino</option>
+                    <option value=""femenino">femenino</option>
+                    <option value=""otro">otro</option>
+                </select>
+  
+        </form>
+        <br>
+        <br>
+
+        <form>
+            <select name="mascotas">
+                <optgroup label="4 patas">
+                <option value ="perro">perro</option> 
+                <option value ="gato">gato</option>
+                <option value ="hamster">hamster</option> 
+                <option value ="conejo">conejo</option>    
+                </optgroup>
+                <optgroup label="otros">
+                <option value ="loro">loro</option> 
+                <option value ="canario">canario</option> 
+                <option value ="serpiente">serpiente</option> 
+                </optgroup>   
+            </select>
+            <br>
+            <br>
+            <input type="list" list="my-datalist">
+            <datalist id="my-datalist">
+                <option value="value1">description 1</option>
+                <option value="value2">description 2</option>
+            </datalist>
+
+
+
+
+
+        </form>
+
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
